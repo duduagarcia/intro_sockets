@@ -1,8 +1,8 @@
 from socket import *
 
 # 127.0.0.1 = localhost
-serverName = '127.0.0.1'
-serverPort = 12000
+serverName = '192.168.100.124'
+serverPort = 40000
 
 # Create UDP socket for client
 clientSocket = socket(AF_INET,SOCK_DGRAM)

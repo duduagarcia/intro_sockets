@@ -1,6 +1,6 @@
 from socket import *
 
-serverPort = 12000
+serverPort = 40000
 
 # create UDP socket
 serverSocket = socket(AF_INET, SOCK_DGRAM)
